@@ -1,0 +1,26 @@
+label {
+  display: block;
+}
+
+input {
+  display: block;
+}
+
+#app {
+  margin: 30px 0 50px;
+}
+
+.form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.table {
+  margin-bottom: 0 !important;
+}
+
+
