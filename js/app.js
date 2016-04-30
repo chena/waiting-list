@@ -2,20 +2,6 @@ const FIREBASE_URL = 'https://shining-fire-3000.firebaseio.com';
 
 const WaitList = React.createClass({
   render() {
-
-    // let createItem = (item, index) => {
-    //   return (
-    //     <li key={ index }>
-    //       {item.sku} | {item.email}
-    //       <span onClick={ this.props.removeItem.bind(null, item['.key']) }
-    //         style={{color: '#8A0829', marginLeft: '10px', cursor: 'pointer'}}>
-    //         [delete]
-    //       </span>
-    //     </li>
-    //   );
-    // };
-    // return <ul className="listing">{ this.props.items.map(createItem) }</ul>;
-
     let dateFormatter = cell => moment(cell).format('MMM D h:mm A');
     let fulfillment = cell => cell ? 'Yes' : 'No';
     let selectRowProp = {
